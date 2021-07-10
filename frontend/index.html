@@ -8,8 +8,16 @@
   </head>
   <body>
     <h1>Hello there</h1>
-    
-    <script src="./web3.min.js"></script>
+
+    <!-- <script src="./web3.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/3.0.0-rc.5/web3.min.js" integrity="sha512-jRzb6jM5wynT5UHyMW2+SD+yLsYPEU5uftImpzOcVTdu1J7VsynVmiuFTsitsoL5PJVQi+OtWbrpWq/I+kkF4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script type="module">
+      import { ethers } from "https://cdn.ethers.io/lib/ethers-5.2.esm.min.js";
+      // Your code here...
+      const provider = new ethers.providers.Web3Provider(window.ethereum);
+      balance = await provider.getBalance("ethers.eth");
+      console.log(balance);
+    </script> -->
     <script src="./app.js" type="module"></script>
   </body>
 </html>
